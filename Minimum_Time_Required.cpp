@@ -11,7 +11,7 @@ int main() {
       mnd = v[i];
   }
   mxd = mnd * k;
-  mnd = (mnd * n) / k;
+  mnd = k/n+(k%n>0?1:0);
   while (mnd < mxd) 
   {
     long mid = (mnd + mxd) >> 1, item = 0;
