@@ -13,7 +13,6 @@ int main()
             ans=max(a,b);
         a=b;
         b=ans;
-        //cout<<a<<" "<<b<<endl;
     }
     cout<<max(a,b)<<endl;
     return 0;
