@@ -46,9 +46,7 @@ int main()
         }
     }
     if(k>0)
-    {
         s[n/2]='9';
-    }
     if(!palin)
         cout<<-1<<endl;
     else
